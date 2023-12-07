@@ -1,0 +1,25 @@
+:root {
+    --background-light: #ffffff;
+    --text-light: #333333;
+    --background-dark: #333333;
+    --text-dark: #ffffff;
+}
+  
+body {
+    background-color: var(--background-light);
+    color: var(--text-light);
+}
+  
+body.dark-mode {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+.cinza {
+   background-color: #b8b0b0;
+}
+
+.red{
+    color: #ff0000;
+}
+
